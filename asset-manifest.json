@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/re-kaya-garden/static/css/main.1c49040e.css",
+    "main.js": "/re-kaya-garden/static/js/main.a95cc448.js",
+    "static/media/home_bg.jpg": "/re-kaya-garden/static/media/home_bg.45610f9d2ad985d457bc.jpg",
+    "static/media/about_bbq.jpg": "/re-kaya-garden/static/media/about_bbq.d77c085b37585ca771cf.jpg",
+    "static/media/about_sushi.jpg": "/re-kaya-garden/static/media/about_sushi.956d11b4fb1cb9412ba4.jpg",
+    "index.html": "/re-kaya-garden/index.html",
+    "main.1c49040e.css.map": "/re-kaya-garden/static/css/main.1c49040e.css.map",
+    "main.a95cc448.js.map": "/re-kaya-garden/static/js/main.a95cc448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c49040e.css",
+    "static/js/main.a95cc448.js"
+  ]
+}
