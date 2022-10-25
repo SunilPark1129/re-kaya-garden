@@ -30,19 +30,11 @@ git clone https://github.com/SunilPark1129/re-kaya-garden.git
 ```
 npm install
 ```
-or
-```
-yarn install
-```
-> Dependencies<br>react-router-dom<br> react-router-hash-link<br> font awesome
+> Dependencies I have used :<br>react-router-dom<br> react-router-hash-link<br> font awesome
 
 3. run the website
 ```
 npm start
-```
-or
-```
-yarn start
 ```
 
 ## Self-improvement
