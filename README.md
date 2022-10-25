@@ -26,20 +26,26 @@ Go to website - [Link](https://sunilpark1129.github.io/re-kaya-garden/)
 ```
 git clone https://github.com/SunilPark1129/re-kaya-garden.git
 ```
-2. Install react router && Install react Hash Link
+2. Install all dependencies
 ```
-npm install react-router-dom
-npm install --save react-router-hash-link
+npm install
 ```
-3. Install font awesome
+or
 ```
-npm i --save @fortawesome/fontawesome-svg-core
-npm i --save @fortawesome/free-solid-svg-icons
-npm i --save @fortawesome/react-fontawesome@latest
+yarn install
 ```
-4. Run
+> Dependencies
+> react-router-dom
+> react-router-hash-link
+> font awesome
+
+3. run the website
 ```
 npm start
+```
+or
+```
+yarn start
 ```
 
 ## Self-improvement
