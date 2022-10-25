@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/re-kaya-garden/static/css/main.1c49040e.css",
-    "main.js": "/re-kaya-garden/static/js/main.95a56d7b.js",
+    "main.css": "/re-kaya-garden/static/css/main.ffe8c146.css",
+    "main.js": "/re-kaya-garden/static/js/main.9540358b.js",
     "static/media/home_bg.jpg": "/re-kaya-garden/static/media/home_bg.45610f9d2ad985d457bc.jpg",
     "static/media/about_bbq.jpg": "/re-kaya-garden/static/media/about_bbq.d77c085b37585ca771cf.jpg",
     "static/media/about_sushi.jpg": "/re-kaya-garden/static/media/about_sushi.956d11b4fb1cb9412ba4.jpg",
     "index.html": "/re-kaya-garden/index.html",
-    "main.1c49040e.css.map": "/re-kaya-garden/static/css/main.1c49040e.css.map",
-    "main.95a56d7b.js.map": "/re-kaya-garden/static/js/main.95a56d7b.js.map"
+    "main.ffe8c146.css.map": "/re-kaya-garden/static/css/main.ffe8c146.css.map",
+    "main.9540358b.js.map": "/re-kaya-garden/static/js/main.9540358b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c49040e.css",
-    "static/js/main.95a56d7b.js"
+    "static/css/main.ffe8c146.css",
+    "static/js/main.9540358b.js"
   ]
 }
