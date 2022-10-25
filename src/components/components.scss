@@ -1,0 +1,139 @@
+// ==================================== navbar component styling ===================================== //
+.navbar {
+    justify-content: center;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    transition-property: background-color, height, padding;
+    transition-duration: 0.3s;
+    z-index: 999;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    &__menu-icon {
+        display: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #fff;
+        z-index: 99;
+    }
+    &__logo {
+        display: flex;
+        height: 80%;
+        font-size: 40px;
+        position: relative;
+        font-weight: 400;
+        z-index: 99;
+        font-family: "Lora", serif;
+        &:before {
+            transition-property: top, transform;
+            transition-duration: 0.3s;
+            content: "KAYA";
+            position: absolute;
+            font-size: 36px;
+            font-weight: 400;
+            left: 110%;
+            top: -5px;
+            transform: translateY(0%);
+            color: white;
+        }
+        &:after {
+            transition: 0.3s opacity;
+            content: "GARDEN";
+            position: absolute;
+            font-size: 22px;
+            justify-content: center;
+            font-weight: 400;
+            left: 110%;
+            bottom: -5px;
+            color: white;
+            opacity: 1;
+        }
+    }
+    &--resize {
+        height: 4.5rem;
+        background-color: rgb(43, 60, 47);
+        .navbar__logo {
+            &:before {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            &:after {
+                opacity: 0;
+            }
+        }
+    }
+    ul {
+        display: flex;
+        gap: 2rem;
+        a {
+            color: white;
+        }
+    }
+}
+
+// ==================== header component styling ==================== //
+.header {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    h2 {
+        color: rgb(43, 60, 47);
+        font-size: 2em;
+    }
+    span {
+        width: 2rem;
+        height: 0.3rem;
+        border-radius: 0.5rem;
+        background-color: rgb(43, 60, 47);
+    }
+}
+
+// =================== footer component styling ===================== //
+footer {
+    display: flex;
+    background-color: var(--main-clr);
+    color: #fff;
+    padding: 2rem;
+    justify-content: center;
+}
+
+@media (max-width: 45rem) {
+    .navbar {
+        height: auto;
+        padding: 1rem;
+        &__menu-icon {
+            display: flex;
+        }
+        .wrapper {
+            flex-wrap: wrap;
+        }
+        ul {
+            justify-content: center;
+            flex: 1 1 100%;
+            gap: 0;
+            display: none;
+            li {
+                a {
+                    display: inline-block;
+                    padding: 1rem;
+                }
+            }
+        }
+        &__menu-display {
+            ul {
+                display: flex;
+            }
+        }
+    }
+}

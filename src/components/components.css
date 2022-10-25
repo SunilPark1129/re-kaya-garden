@@ -1,0 +1,130 @@
+.navbar {
+  justify-content: center;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: transparent;
+  transition-property: background-color, height, padding;
+  transition-duration: 0.3s;
+  z-index: 999;
+}
+.navbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.navbar__menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fff;
+  z-index: 99;
+}
+.navbar__logo {
+  display: flex;
+  height: 80%;
+  font-size: 40px;
+  position: relative;
+  font-weight: 400;
+  z-index: 99;
+  font-family: "Lora", serif;
+}
+.navbar__logo:before {
+  transition-property: top, transform;
+  transition-duration: 0.3s;
+  content: "KAYA";
+  position: absolute;
+  font-size: 36px;
+  font-weight: 400;
+  left: 110%;
+  top: -5px;
+  transform: translateY(0%);
+  color: white;
+}
+.navbar__logo:after {
+  transition: 0.3s opacity;
+  content: "GARDEN";
+  position: absolute;
+  font-size: 22px;
+  justify-content: center;
+  font-weight: 400;
+  left: 110%;
+  bottom: -5px;
+  color: white;
+  opacity: 1;
+}
+.navbar--resize {
+  height: 4.5rem;
+  background-color: rgb(43, 60, 47);
+}
+.navbar--resize .navbar__logo:before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navbar--resize .navbar__logo:after {
+  opacity: 0;
+}
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+.navbar ul a {
+  color: white;
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.header h2 {
+  color: rgb(43, 60, 47);
+  font-size: 2em;
+}
+.header span {
+  width: 2rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: rgb(43, 60, 47);
+}
+
+footer {
+  display: flex;
+  background-color: var(--main-clr);
+  color: #fff;
+  padding: 2rem;
+  justify-content: center;
+}
+
+@media (max-width: 45rem) {
+  .navbar {
+    height: auto;
+    padding: 1rem;
+  }
+  .navbar__menu-icon {
+    display: flex;
+  }
+  .navbar .wrapper {
+    flex-wrap: wrap;
+  }
+  .navbar ul {
+    justify-content: center;
+    flex: 1 1 100%;
+    gap: 0;
+    display: none;
+  }
+  .navbar ul li a {
+    display: inline-block;
+    padding: 1rem;
+  }
+  .navbar__menu-display ul {
+    display: flex;
+  }
+}/*# sourceMappingURL=components.css.map */

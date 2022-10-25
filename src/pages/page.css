@@ -1,0 +1,261 @@
+.page {
+  position: relative;
+  display: flex;
+}
+.page .wrapper {
+  padding: 4rem 2rem;
+}
+.page main {
+  padding: 2rem 0;
+}
+
+.home {
+  height: 100vh;
+  min-height: 35rem;
+}
+.home__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(../assets/home_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: contrast(200%) brightness(50%) saturate(120%);
+}
+.home .wrapper {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.home__content {
+  margin: auto;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.home h1 {
+  color: rgb(223, 223, 223);
+  font-size: 4.5rem;
+}
+.home h2 {
+  color: rgb(223, 223, 223);
+  font-size: 3rem;
+}
+.home span {
+  color: #fff;
+}
+.home span:nth-child(1) {
+  background-color: rgb(43, 60, 47);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.menu__btn {
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  padding: 1rem;
+  background-color: rgb(207, 207, 207);
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.menu li:hover {
+  filter: brightness(110%);
+}
+.menu main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.menu__item {
+  margin: auto;
+  max-width: 60rem;
+  width: 100%;
+}
+.menu__item__top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.menu__item__top:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  border: 1px dashed rgb(211, 211, 211);
+}
+.menu__item span {
+  color: rgb(169, 76, 76);
+  font-size: 0.9em;
+}
+.menu__item h3 {
+  z-index: 9;
+  background-color: var(--bg-clr);
+  padding-right: 1rem;
+  font-size: 1.3em;
+}
+.menu__item h4 {
+  z-index: 9;
+  background-color: var(--bg-clr);
+  padding-left: 1rem;
+  font-size: 1.1em;
+}
+.menu__item p {
+  font-style: italic;
+}
+
+.about main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about__box {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 60rem;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+}
+.about__box:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.about__box__img {
+  flex: 1 1 35%;
+  height: 20rem;
+}
+.about__box img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.about__box__text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30rem;
+}
+.about__box__text h2 {
+  font-size: 1.7em;
+  color: var(--main-clr);
+}
+.about__box__text p {
+  font-size: 1.2em;
+}
+.about__box__text span {
+  color: rgb(94, 154, 80);
+  font-weight: bold;
+}
+
+.location main {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  position: relative;
+}
+.location section {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+.location h3 {
+  color: var(--main-clr);
+  font-size: 1.5em;
+  padding-bottom: 0.5rem;
+}
+.location p {
+  font-size: 1.2em;
+}
+.location__left {
+  gap: 2em;
+  text-align: right;
+}
+.location__left__top {
+  display: flex;
+  flex-direction: column;
+}
+.location__left__top a {
+  margin-left: auto;
+  background-color: var(--main-clr);
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+.location__left__top a:hover {
+  filter: brightness(120%);
+}
+.location__line {
+  position: absolute;
+  width: 0.3rem;
+  top: 2rem;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--main-clr);
+}
+.location span {
+  display: inline-block;
+  width: 4rem;
+}
+
+@media (max-width: 45rem) {
+  .page:not(:nth-child(1)):not(:last-child) {
+    border-bottom: 1px dashed rgb(194, 194, 194);
+  }
+  .page .wrapper {
+    padding: 4rem 1rem;
+  }
+  .page main {
+    padding: 1rem 0;
+  }
+  .home {
+    text-align: center;
+  }
+  .home h1 {
+    font-size: 3em;
+  }
+  .home h2 {
+    font-size: 2em;
+  }
+  .location main {
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  .location__left {
+    text-align: center;
+  }
+  .location__left a {
+    margin-right: auto;
+  }
+  .location__right {
+    text-align: center;
+  }
+  .location__right p {
+    margin: auto;
+    display: flex;
+    min-width: 15rem;
+    width: 50%;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .location__line {
+    display: none;
+  }
+  .location span {
+    width: auto;
+  }
+}/*# sourceMappingURL=page.css.map */
