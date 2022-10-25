@@ -34,10 +34,7 @@ or
 ```
 yarn install
 ```
-> Dependencies
-> react-router-dom
-> react-router-hash-link
-> font awesome
+> Dependencies<br>react-router-dom<br> react-router-hash-link<br> font awesome
 
 3. run the website
 ```
