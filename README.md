@@ -44,7 +44,7 @@ npm start
 
 ## Self-improvement
 > In the past, while creating a website, I took note of the parts that could be improved or that were difficult at the time to develop the website.
-So I created a new website with reference to this note for self-development.<br>Old Site - [Link](https://github.com/SunilPark1129/kaya-garden)
+So I updated the old website with reference to this note for self-development.<br>My Old Site - [Link](https://github.com/SunilPark1129/kaya-garden)
 
 - [x] I need to practice / create more complex coding.
   - I practiced a lot / Reduced hardcoding of duplicate lines using functions.
