@@ -6,7 +6,7 @@ Feature:
 Color the navbar when the window scrollY is higher than 20 through a scroll event.
 */
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "./components.css";
 import logo from "../assets/kayagarden_logo.png";
@@ -23,23 +23,15 @@ const Navbar = () => {
   // Use toggle btn to display the link menu (useful only when the max-width meets the condition).
   const [displayMenu, setMenu] = useState(false);
 
-  const unmounted = useRef(true);
   useEffect(() => {
-    if (!unmounted.current) {
-      window.addEventListener("scroll", resizeNavbar);
-    } else {
-      resizeNavbar();
-    }
+    window.addEventListener("scroll", resizeNavbar);
     return () => {
-      unmounted.current = false;
       window.removeEventListener("scroll", resizeNavbar);
-      console.log("scroll");
     };
   }, []);
 
   const resizeNavbar = (e) => {
     let windowHeight = window.scrollY;
-    console.log("resize");
     windowHeight > 20 ? setMoved(true) : setMoved(false);
   };
 
@@ -69,6 +61,11 @@ const Navbar = () => {
           />
         )}
         <ul>
+          <li>
+            <Link smooth to="#" title="scroll to home">
+              HOME
+            </Link>
+          </li>
           <li>
             <Link smooth to="#menu" title="scroll to menu">
               MENU

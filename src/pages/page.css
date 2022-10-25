@@ -231,6 +231,12 @@
   .home h2 {
     font-size: 2em;
   }
+  .menu__btn {
+    flex-direction: column;
+  }
+  .menu__btn li {
+    justify-content: center;
+  }
   .location main {
     flex-wrap: wrap;
     gap: 2em;

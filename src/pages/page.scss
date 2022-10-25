@@ -242,6 +242,14 @@
             font-size: 2em;
         }
     }
+    .menu {
+        &__btn {
+            flex-direction: column;
+            li {
+                justify-content: center;
+            }
+        }
+    }
     .location {
         main {
             flex-wrap: wrap;
