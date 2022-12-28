@@ -5,7 +5,7 @@ Go to website - [Link](https://sp-kayagarden.netlify.app)
 
 ## Project Description
 
-- This is the website of Kaya Garden, a Korean BBQ restaurant.
+- A Korean BBQ restaurant.
 
 ## Features
 > Features I would like to introduce.
@@ -13,8 +13,8 @@ Go to website - [Link](https://sp-kayagarden.netlify.app)
 |Feature|Description|
 |:--:|:--|
 |Responsive Web|<img src="https://user-images.githubusercontent.com/106734133/197693638-40946948-36e7-4d4d-8830-7211d17366fe.jpg" width="400"><br><br>This website can be used with any window size. The font size and design changes when the window width is below 45rem.|
-|Menu|<img src="https://user-images.githubusercontent.com/106734133/197693695-53b51a8e-7d4a-48de-81fd-84c98bc85405.jpg" height="400"><br><br>If you press the button at the top of the menu, you can see a list of foods related to that category.<br><br>The numbers and alphabets that mark each item change according to the number of categories and the length of the arrays within them. For example, if you add a new category using the dev tool, the characters that display the items will be D1, D2, D3...|
-|Navbar|<img src="https://user-images.githubusercontent.com/106734133/197693734-756ecd6c-84b8-44e5-8180-3ca60476d046.jpg" height="400"><br><br>When the window size reaches the condition of less than 45rem, an arrow toggle button is shown in the navbar. When the setting value becomes true by clicking this button, the menu aside is shown at the top part.<br><br>For design elements, when scrollY exceeds 20, the styling of the navbar is changed..|
+|Menu|<img src="https://user-images.githubusercontent.com/106734133/197693695-53b51a8e-7d4a-48de-81fd-84c98bc85405.jpg" height="400"><br><br>If you press the button at the top of the menu, you can see a list of foods related to that category.|
+|Navbar|<img src="https://user-images.githubusercontent.com/106734133/197693734-756ecd6c-84b8-44e5-8180-3ca60476d046.jpg" height="400"><br><br>When the window size reaches the condition of less than 45rem, an arrow toggle button is shown in the navbar.
 
 ## Technology Used
 
