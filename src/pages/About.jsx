@@ -8,6 +8,8 @@ import React from "react";
 import { Header } from "../components/index";
 import bbq from "../assets/about_bbq.jpg";
 import sushi from "../assets/about_sushi.jpg";
+import "../components/components.css";
+
 const About = () => {
   return (
     <section className="page about" id="about">

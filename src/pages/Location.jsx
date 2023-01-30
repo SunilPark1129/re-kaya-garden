@@ -24,7 +24,7 @@ const Location = () => {
               <h3>
                 Address <FontAwesomeIcon icon={faLocationDot} />
               </h3>
-              <p>450 Broad Ave, Leonia, NJ 07605</p>
+              <address>450 Broad Ave, Leonia, NJ 07605</address>
               <a
                 className="location__map"
                 href="https://goo.gl/maps/AGh4Cc12UHX8Nqhe6"

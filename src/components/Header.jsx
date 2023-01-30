@@ -5,9 +5,9 @@ Each page adds a design with header set by sending props to this page.
 
 export const Header = ({ props }) => {
   return (
-    <div className="header">
-      <h2>{props}</h2>
+    <header className="header">
+      <h1>{props}</h1>
       <span></span>
-    </div>
+    </header>
   );
 };
