@@ -40,50 +40,52 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar ${hasMoved && "navbar--resize"}`}>
-      <div className={`wrapper ${displayMenu && "navbar__menu-display"}`}>
-        <Link smooth to="#" className="navbar__logo" title="scroll to home">
-          <img src={logo} alt="logo" />
-        </Link>
-        {displayMenu ? (
-          <FontAwesomeIcon
-            icon={faCircleChevronUp}
-            className="navbar__menu-icon"
-            onClick={menuClickHandler}
-            title="hide the menu"
-          />
-        ) : (
-          <FontAwesomeIcon
-            icon={faCircleChevronDown}
-            className="navbar__menu-icon"
-            onClick={menuClickHandler}
-            title="open the menu"
-          />
-        )}
-        <ul>
-          <li>
-            <Link smooth to="#" title="scroll to home">
-              HOME
-            </Link>
-          </li>
-          <li>
-            <Link smooth to="#menu" title="scroll to menu">
-              MENU
-            </Link>
-          </li>
-          <li>
-            <Link smooth to="#about" title="scroll to about">
-              ABOUT
-            </Link>
-          </li>
-          <li>
-            <Link smooth to="#location" title="scroll to location">
-              LOCATION
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav className={`navbar ${hasMoved && "navbar--resize"}`}>
+        <div className={`wrapper ${displayMenu && "navbar__menu-display"}`}>
+          <Link smooth to="#" className="navbar__logo" title="scroll to home">
+            <img src={logo} alt="logo" />
+          </Link>
+          {displayMenu ? (
+            <FontAwesomeIcon
+              icon={faCircleChevronUp}
+              className="navbar__menu-icon"
+              onClick={menuClickHandler}
+              title="hide the menu"
+            />
+          ) : (
+            <FontAwesomeIcon
+              icon={faCircleChevronDown}
+              className="navbar__menu-icon"
+              onClick={menuClickHandler}
+              title="open the menu"
+            />
+          )}
+          <ul>
+            <li>
+              <Link smooth to="#" title="scroll to home">
+                HOME
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="#menu" title="scroll to menu">
+                MENU
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="#about" title="scroll to about">
+                ABOUT
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="#location" title="scroll to location">
+                LOCATION
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 };
 
