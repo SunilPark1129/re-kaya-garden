@@ -12,10 +12,10 @@ const Home = () => {
       <div className="home__bg" />
       <div className="wrapper">
         <div className="home__content">
-          <p>We promise to always provide the</p>
           <h1>
             <span>Best</span> Service and Qualities
           </h1>
+          <p>We promise to always provide the</p>
         </div>
       </div>
     </section>
