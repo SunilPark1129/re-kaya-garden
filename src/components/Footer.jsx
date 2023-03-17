@@ -4,7 +4,11 @@ This page has no additional information other than the copyright text.
 */
 
 const Footer = () => {
-  return <footer>&copy; COPYRIGHT KAYAGARDEN LEONIA NJ - 2022</footer>;
+  return (
+    <footer>
+      <p>&copy; COPYRIGHT KAYAGARDEN LEONIA NJ - 2022</p>
+    </footer>
+  );
 };
 
 export default Footer;

@@ -15,12 +15,10 @@ const About = () => {
     <section className="page about" id="about">
       <div className="wrapper">
         <Header props="ABOUT" />
-        <main>
-          <section className="about__box">
-            <div className="about__box__img">
-              <img src={bbq} alt="BBQ" />
-            </div>
-            <div className="about__box__text">
+        <article>
+          <section className="about__content">
+            <img src={bbq} alt="BBQ" />
+            <div className="about__content__text">
               <h2>KayaGarden</h2>
               <p>
                 Our restaurant has maintained the taste of traditional{" "}
@@ -32,11 +30,9 @@ const About = () => {
               </p>
             </div>
           </section>
-          <section className="about__box">
-            <div className="about__box__img">
-              <img src={sushi} alt="Sushi" />
-            </div>
-            <div className="about__box__text">
+          <section className="about__content">
+            <img src={sushi} alt="Sushi" />
+            <div className="about__content__text">
               <h2>Service</h2>
               <p>
                 In order to preserve the <span>pride</span> of traditional food,
@@ -48,7 +44,7 @@ const About = () => {
               </p>
             </div>
           </section>
-        </main>
+        </article>
       </div>
     </section>
   );

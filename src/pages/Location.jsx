@@ -17,13 +17,13 @@ const Location = () => {
     <section className="page location" id="location">
       <div className="wrapper">
         <Header props="LOCATION" />
-        <main>
+        <article>
           <div className="location__line"></div>
           <section className="location__left">
-            <div className="location__left__top">
-              <h3>
+            <div className="location__left__map">
+              <h5>
                 Address <FontAwesomeIcon icon={faLocationDot} />
-              </h3>
+              </h5>
               <address>450 Broad Ave, Leonia, NJ 07605</address>
               <a
                 className="location__map"
@@ -35,23 +35,23 @@ const Location = () => {
                 Google Map
               </a>
             </div>
-            <div className="location__left__center">
-              <h3>
+            <div>
+              <h5>
                 Email <FontAwesomeIcon icon={faEnvelope} />
-              </h3>
+              </h5>
               <p>kayagardeninc@gmail.com</p>
             </div>
-            <div className="location__left__bottom">
-              <h3>
+            <div>
+              <h5>
                 Phone <FontAwesomeIcon icon={faPhone} />
-              </h3>
+              </h5>
               <p>(201)461-7525</p>
             </div>
           </section>
           <section className="location__right">
-            <h3>
+            <h5>
               Open Hours <FontAwesomeIcon icon={faStore} />
-            </h3>
+            </h5>
             <p>
               <span>SAT</span> 11:15AM–10:30PM
             </p>
@@ -74,7 +74,7 @@ const Location = () => {
               <span>FRI</span> 11:15AM–10:30PM
             </p>
           </section>
-        </main>
+        </article>
       </div>
     </section>
   );

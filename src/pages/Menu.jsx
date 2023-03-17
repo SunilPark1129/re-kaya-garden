@@ -16,7 +16,7 @@ const Menu = () => {
     <section className="page menu" id="menu">
       <div className="wrapper">
         <Header props={"MENU"} />
-        <main>
+        <article>
           <ul className="menu__btn">
             {menuList.map((item, idx) => {
               return (
@@ -35,25 +35,27 @@ const Menu = () => {
               );
             })}
           </ul>
-          {menuList[menuPage].items.map((item, idx) => {
-            return (
-              <div className="menu__item" key={item.name}>
-                <div className="menu__item__top">
-                  <h3>
-                    <span>
-                      {String.fromCharCode(65 + menuPage) + (idx + 1)}
-                    </span>
-                    {"- " + item.name}
-                  </h3>
-                  <h4>{`$${item.price}`}</h4>
-                </div>
-                <div className="menu__item__bottom">
-                  <p>{item.description}</p>
-                </div>
-              </div>
-            );
-          })}
-        </main>
+          <ol>
+            {menuList[menuPage].items.map((item, idx) => {
+              return (
+                <li className="menu__item" key={item.name}>
+                  <div className="menu__item__top">
+                    <p className="menu__item__id">
+                      <span>
+                        {String.fromCharCode(65 + menuPage) + (idx + 1)}
+                      </span>
+                      {"- " + item.name}
+                    </p>
+                    <p className="menu__item__price">{`$${item.price}`}</p>
+                  </div>
+                  <div className="menu__item__bottom">
+                    <p>{item.description}</p>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        </article>
       </div>
     </section>
   );
