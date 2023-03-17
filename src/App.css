@@ -4,39 +4,50 @@
 /* global settings */
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    --main-clr: rgb(43, 60, 47);
-    --bg-clr: rgb(238, 238, 238);
+  --main-clr: rgb(43, 60, 47);
+  --bg-clr: rgb(238, 238, 238);
 }
 
 body {
-    background-color: var(--bg-clr);
-    font-size: 1rem;
-    font-family: "Roboto Slab", serif;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+  background-color: var(--bg-clr);
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
 }
 
 .wrapper {
-    max-width: 80rem;
-    margin: 0 auto;
-    width: 100%;
+  max-width: 60rem;
+  padding: 4rem 1rem;
+}
+
+button {
+  font-family: "Roboto Slab", serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  gap: 4em;
 }
 
 @media (max-width: 45rem) {
-    body {
-        font-size: 0.8rem;
-    }
+  body {
+    font-size: 0.8rem;
+  }
 }

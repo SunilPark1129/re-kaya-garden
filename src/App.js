@@ -11,9 +11,11 @@ function App() {
       <Navbar />
       <main>
         <Home />
-        <Menu />
-        <About />
-        <Location />
+        <div className="wrapper">
+          <Menu />
+          <About />
+          <Location />
+        </div>
       </main>
       <Footer />
     </>
