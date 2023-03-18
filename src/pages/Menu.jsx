@@ -15,7 +15,7 @@ const Menu = () => {
   return (
     <article className="page menu" id="menu">
       <Header props={"MENU"} />
-      <div>
+      <div className="container">
         <div className="menu__btn-box">
           {menuList.map((item, idx) => {
             return (

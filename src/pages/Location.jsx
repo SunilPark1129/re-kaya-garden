@@ -17,8 +17,8 @@ const Location = () => {
     <article className="page location" id="location">
       <Header props="LOCATION" />
       <div className="container">
-        <div className="location__line"></div>
         <section className="location__left">
+          <h5>Info</h5>
           <section className="location__left__map">
             <h5>
               Address <FontAwesomeIcon icon={faLocationDot} />
@@ -47,31 +47,35 @@ const Location = () => {
             <p>(201)461-7525</p>
           </section>
         </section>
-        <section className="location__right">
-          <h5>
-            Open Hours <FontAwesomeIcon icon={faStore} />
-          </h5>
-          <p>
-            <span>SAT</span> 11:15AM–10:30PM
-          </p>
-          <p>
-            <span>SUN</span> 11:15AM–10PM
-          </p>
-          <p>
-            <span>MON</span> 11:15AM–10:30PM
-          </p>
-          <p>
-            <span>TUE</span> 11:15AM–10:30PM
-          </p>
-          <p>
-            <span>WED</span> 11:15AM–10:30PM
-          </p>
-          <p>
-            <span>THU</span> 11:15AM–10:30PM
-          </p>
-          <p>
-            <span>FRI</span> 11:15AM–10:30PM
-          </p>
+        <div className="location__line"></div>
+        <section className="location__left right">
+          <h5>Business</h5>
+          <section>
+            <h5>
+              Open Hours <FontAwesomeIcon icon={faStore} />
+            </h5>
+            <p>
+              <span>SAT</span> 11:15AM–10:30PM
+            </p>
+            <p>
+              <span>SUN</span> 11:15AM–10PM
+            </p>
+            <p>
+              <span>MON</span> 11:15AM–10:30PM
+            </p>
+            <p>
+              <span>TUE</span> 11:15AM–10:30PM
+            </p>
+            <p>
+              <span>WED</span> 11:15AM–10:30PM
+            </p>
+            <p>
+              <span>THU</span> 11:15AM–10:30PM
+            </p>
+            <p>
+              <span>FRI</span> 11:15AM–10:30PM
+            </p>
+          </section>
         </section>
       </div>
     </article>

@@ -108,7 +108,7 @@
 
 // =================================== about page styling ===================================== //
 .about {
-  &__content {
+  &__container {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -190,6 +190,9 @@
       }
     }
   }
+  .right {
+    text-align: left;
+  }
   &__line {
     position: absolute;
     width: 0.3rem;
@@ -242,7 +245,7 @@
         margin-right: auto;
       }
     }
-    &__right {
+    .right {
       text-align: center;
       p {
         margin: auto;
@@ -254,7 +257,11 @@
       }
     }
     &__line {
-      display: none;
+      position: relative;
+      width: 100%;
+      height: 0.3rem;
+      left: 0;
+      transform: translateX(0);
     }
     span {
       width: auto;

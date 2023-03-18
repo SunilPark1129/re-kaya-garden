@@ -14,10 +14,10 @@ const About = () => {
   return (
     <article className="page about" id="about">
       <Header props="ABOUT" />
-      <div className="about__content">
+      <div className="about__container">
         <section>
           <img src={bbq} alt="BBQ" />
-          <div className="about__content__text">
+          <div className="about__container__text">
             <h2>KayaGarden</h2>
             <p>
               Our restaurant has maintained the taste of traditional{" "}
@@ -31,7 +31,7 @@ const About = () => {
         </section>
         <section>
           <img src={sushi} alt="Sushi" />
-          <div className="about__content__text">
+          <div className="about__container__text">
             <h2>Service</h2>
             <p>
               In order to preserve the <span>pride</span> of traditional food,
