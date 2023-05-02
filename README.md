@@ -1,7 +1,8 @@
 # Kaya Garden
 ![kaya-bg](https://user-images.githubusercontent.com/106734133/197693800-0295761a-3cb9-49f1-b4bb-d1f603934db7.jpg)
 
-Go to website - [Link](https://sp-kayagarden.netlify.app)
+Go to website - [Link](https://sp-kayagarden.netlify.app)<br>
+Go to old website - [Link](https://github.com/SunilPark1129/kaya-garden)
 
 ## Project Description
 
