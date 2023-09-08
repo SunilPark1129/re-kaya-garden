@@ -6,16 +6,16 @@ Go to old website - [Link](https://github.com/SunilPark1129/kaya-garden)
 
 ## Project Description
 
-- A Korean BBQ restaurant.
+- It's a Korean restaurant that focuses on traditional Korean dishes.
 
 ## Features
 > Features I would like to introduce.
 
 |Feature|Description|
 |:--:|:--|
-|Responsive Web|<img src="https://user-images.githubusercontent.com/106734133/197693638-40946948-36e7-4d4d-8830-7211d17366fe.jpg" width="400"><br><br>This website can be used with any window size. The font size and design changes when the window width is below 45rem.|
-|Menu|<img src="https://user-images.githubusercontent.com/106734133/197693695-53b51a8e-7d4a-48de-81fd-84c98bc85405.jpg" height="400"><br><br>If you press the button at the top of the menu, you can see a list of foods related to that category.|
-|Navbar|<img src="https://user-images.githubusercontent.com/106734133/197693734-756ecd6c-84b8-44e5-8180-3ca60476d046.jpg" height="400"><br><br>When the window size reaches the condition of less than 45rem, an arrow toggle button is shown in the navbar.
+|Responsive Web|<img src="https://user-images.githubusercontent.com/106734133/197693638-40946948-36e7-4d4d-8830-7211d17366fe.jpg" width="400"><br><br>This website can be used with any devices.|
+|Menu|<img src="https://user-images.githubusercontent.com/106734133/197693695-53b51a8e-7d4a-48de-81fd-84c98bc85405.jpg" height="400"><br><br>If you press the button at the top of the menu, you will see a list of foods related to that category.|
+|Navbar|<img src="https://user-images.githubusercontent.com/106734133/197693734-756ecd6c-84b8-44e5-8180-3ca60476d046.jpg" height="400"><br><br>When the window size reaches less than 45rem, an arrow toggle button is shown in the navbar.
 
 ## Technology Used
 
